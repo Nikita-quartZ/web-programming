@@ -4,25 +4,25 @@
   <title>Работа с таблицами</title>
 </head>
 <body>
-  <table>
+  <table border = "2" ” style="width:80%">
+    <caption style = "caption-side:bottom">Список сотрудников</caption>
     <tr>
-      <td>Фамилия</td>
-      <td>Имя</td>
-      <td>Отчество</td>
-      <td>Город</td>
+      <th>Фамилия</th>
+      <th>Имя</th>
+      <th>Отчество</th>
+      <th>Город</th>
     </tr>
     <tr>
-      <td>Пупкин</td>
+      <td rowspan = "2">Пупкин</td>
       <td>Василий</td>
       <td>Петрович</td>
-      <td>Москва</td>
-    </tr>
-    <tr>
-      <td>Пупкин</td>
+      <td rowspan = "2">Москва</td>
+      </tr>
+      <tr>
+      <!- - В этом ряду удалены две ячейки - ->
       <td>Феофан</td>
       <td>Васильевич</td>
-      <td>Москва</td>
-    </tr>
+      </tr>
     <tr>
       <td>Шашкин</td>
       <td>Сидор</td>
@@ -30,9 +30,7 @@
       <td>Санкт-Петербург</td>
     </tr>
     <tr>
-      <td>Лютикова</td>
-      <td>Аделина</td>
-      <td>Федоровна</td>
+      <td colspan = "3">Лютикова Аделина Федоровна</td>
       <td>Тверь</td>
     </tr>
   </table>
