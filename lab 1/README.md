@@ -515,5 +515,64 @@
 - alink  - атрибут тега body, для указания цвета активной ссылки в документе; 
 - vlink  - атрибут тега body, для указания цвета посещенных ссылки в документе;
 - style  - тэг для указания css стилей, где указаны с помощью псевдо стилей стили для тэга a ;
+- 
+## Упражнение 3.3
+
+```
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Links</title>
+  <style>
+    a:visited{color:blue;}
+    a:active{color:Fuchsia;}
+    a:hover {color:yellow;}
+   </style> 
+ </head>
+<body  alink="Fuchsia" vlink="Aqua">
+<p>This is a link:</p>
+  <a href = "http://www.yandex.ru">Yandex</a>
+</body>
+</html>
+
+2.	Сохраните изменения, убедитесь в работоспособности гиперссылки. 
+3.	Для изменения цветовых решений гиперссылки, как правило, используют CSS, но возможно встретить и вариант с HTML. В этом случае цвета ссылок задаются в качестве атрибутов тега <body>. Измените код ex4.html следующим образом (изменения обозначены полужирным шрифтом):
+
+<html>
+ <head>
+  <title>Links</title>
+ </head>
+  <body alink="Fuchsia" vlink="Aqua" >
+  <! - - alink – активная ссылка, vlink – посещенная ссылка - ->
+  <p>This is a link:</p>
+  <a href = "http://www.yandex.ru" target = "_blank">Yandex</a> <br>
+
+  <a href="mailto:myAdress@domain.ru">Отправьте мне письмо</a>
+</body>
+</html>
+
+```
+
+![image](https://github.com/user-attachments/assets/991bb13e-60ef-4615-b395-8265a4d2219d)
+
+#### Вывод
+С помощью ссылок, можно также сделать ссылку на почтовый клиент, чтобы быстро написать сообщение на данный email
+
+## Упражнение 3.4
+
+```
+<h1 id = "history_1">Несколько историй</h1>
+
+<a href = "#history_1">История первая</a><br />
+<a href = "#history_2">История вторая</a><br />
+
+<h2  id = "history_1">История первая</h2>
+```
+
+![image](https://github.com/user-attachments/assets/d5bd856a-5e95-4a58-b5c7-e2e21cd6e1d0)
+
+
+#### Вывод
+Ссылки также можно использовать для навигации по сайту и быстро переходить по ссылкам
 
 
