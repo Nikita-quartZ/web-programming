@@ -52,7 +52,7 @@
 -	tr - теги, который создает строчку в таблице
 -	td - теги, который создает столбик в таблице
 
--	## Упражнение 4.2
+## Упражнение 4.2
 
 ```
 <!DOCTYPE html>
@@ -101,7 +101,7 @@
 
 -	border - атрибут для добавления границы таблицы
 
--	## Упражнение 4.3
+## Упражнение 4.3
 
 ```
 <!DOCTYPE html>
@@ -152,7 +152,7 @@
 -	th - тег, который создает строчку в оглавлении таблицы
 -	caption - тег для описания таблицы, а caption-side позицианимрует где именно находится описание
 
--	## Упражнение 4.4
+## Упражнение 4.4
 
 ```
 <!DOCTYPE html>
@@ -201,7 +201,7 @@
 -	colspan - атрибут бля выделения количество колонок занимаемой одной клеткой
 -	rowspan - атрибут бля выделения количество строчек занимаемой одной клеткой
 
--	## Упражнение 4.5
+## Упражнение 4.5
 
 ```
 <!DOCTYPE html>
@@ -253,7 +253,7 @@
 -	tfoot - тег для хранения одной или нескольких строк таблицы, который представлены в конце таблицы
 -	colgroup - тег для задания ширины и стиля одной или нескольких полей таблицы
 
--	## Упражнение 5.1
+## Упражнение 5.1
 
 ```
 <img src= "/HTML 1/mountain.jpg" alt="Button" title = “This is a button”/>
@@ -265,7 +265,7 @@
 -	alt - атрибут для размещение альтернативного текста
 -	title - атрибут для подсказку к изображению
 
--	## Упражнение 5.2
+## Упражнение 5.2
 
 ```
 <img src= "/HTML 1/mountain.jpg" alt="Button" title = "This is a button" style="width:100px; height:130px"/>
@@ -276,7 +276,7 @@
 -	width - атрибут ширины
 -	height - атрибут высоты
   
--	## Упражнение 5.3
+## Упражнение 5.3
 
 ```
 <a href = "/HTML 1/classification.html">
@@ -286,7 +286,7 @@
 
 ![image](https://github.com/user-attachments/assets/b81be537-c845-4f31-8116-374207d93277)
 
--	## Упражнение 5.4
+## Упражнение 5.4
 
 ```
 <a href = "/HTML 1/classification.html">
@@ -303,7 +303,7 @@
 - map - тег, служит контейнером для элементов <area>, которые определяют активные области для карт-изображений
 - area - тег, для создания красивой навигации, разметив обычную картинку областями и указав для них ссылки
 
--	## Упражнение 5.5
+## Упражнение 5.5
 
 ```
 <video width="320" height="240" controls>
@@ -318,7 +318,7 @@
 - video - тег для воспроизведения и управляет настройками видеоролика на веб-странице
 - source - тег, для вставки звуковой или видеофайл для элементов
 
--	## Упражнение 6.1
+## Упражнение 6.1
 
 ```
 <html>
@@ -351,7 +351,7 @@
   #### Вывод
   Формы позволяют быстро и удобно создавать формы для взаимодействия с сервером
 
--	## Упражнение 6.2
+## Упражнение 6.2
 
 ```
 <html>
@@ -377,3 +377,117 @@
 
 #### Вывод
 Типы input позволяю адаптировать их под разные сценарии как выбор цвтеа, даты, ввода именно числа, url или почты
+
+## Упражнение 6.3
+
+```
+<html>
+<head>
+  <title> Test Form </title>
+</head>
+<body>
+  <p>Основные элементы форм:</p>
+  <form action = "ex7.html" method = "POST" enctype = "multipart/form-data">
+    Простое текстовое поле: <input type = "text" name = "txtField" /><br />
+    Поле длинной максимум 5 символов: <input type = "text" name = "txtField" maxlength = “5” /><br />
+    Многострочное текстовое поле:<br />
+    <textarea name = "txtArea">This is a text area</textarea><br />
+    Поле для ввода пароля:<input type = "password" name = "psw" /><br />
+    Скрытое поле: <input type = "hidden" name = "hdnTxt"></br>
+    <input type = "submit" name = "submit" value = "Отправить!" />
+  </form>
+
+  <form>
+    Работа с цветом:<input type = "color" name = "color"/><br/>
+    Работа с датой:<input type = "date" name = "date"/><br/>
+    Проверка e-mail:<input type = "email" name = "mail"/><br/>
+    Проверка чисел:<input type = "number" name = "num"/><br/>
+    Работа с днем недели:<input type = "week" name = "week"/><br/>
+    Проверка URL:<input type = "url" name = "url"/><br/>
+    <input type = "submit" name = "submit" value = "Отправить!" />
+  </form>
+
+  <form>
+    Введите данные:<input type = "text" name = "txt"><br/>
+    <input type = "reset" name = "reset" value = "Очистить поле!" /><br />
+    <input type = "submit" name = "submit" value = "Отправить!" /><br />
+    <button name = "myButton">
+      <img src = "enot.jpg" title = "This is a button too">
+    </button>
+  </form>
+</body>
+</html>
+
+```
+
+![image](https://github.com/user-attachments/assets/313e4568-3d17-43c8-9c38-4c7e0e738805)
+
+
+#### Вывод
+Для отправки формы необходима кнопка с типом submit, в ней может быть любой контент, текст иконка и также можно передать текст через аргумент
+
+## Упражнение 6.4
+
+```
+<form>
+    <p><input type = "radio" name = "MyRadio" value = "First">First Variant</p>
+    <p><input type = "radio" name = "MyRadio" value = "Second">Second Variant</p>
+    <p><input type = "radio" name = "MyRadio" value = "Third">Third Variant</p>
+    <p><input type = "submit" name = "submit">
+  </form>
+
+  <form>
+    <p><input type = "checkbox" name = "MyChckBx[]" value = "First">First Variant</p>
+    <p><input type = "checkbox" name = "MyChckBx[]" value = "Second">Second Variant</p>
+    <p><input type = "checkbox" name = "MyChckBx[]" value = "Third">Third Variant</p>
+    <p><input type = "submit" name = "submit">
+  </form>
+```
+
+![image](https://github.com/user-attachments/assets/8627e56f-bb27-4e33-8155-9f30191d5e74)
+
+#### Вывод
+В форме можно создавать с помощью input type radio и checkbox для выбора данных из предложенных вариантов, один или несколько
+
+## Упражнение 6.5
+
+```
+<form>
+    <select name = "cars" size = "1">
+    <optgroup label = "Ford">
+    <option value = "F">Focus</option>
+    <option value = "M">Mondeo</option>
+    <option value = "K">Kuga</option>
+    </optgroup>
+    <optgroup label = "Volkswagen">
+    <option value = "G">Golf</option>
+    <option value = "B">Beetle</option>
+    <option value = "P">Passat</option>
+    </optgroup>
+    <optgroup label = "Chevrolet">
+    <option value = "Cr">Cruze</option>
+    <option value = "Cam">Camaro</option>
+    <option value = "Cor">Corvette</option>
+    </optgroup>
+    </select>
+    <input type = “submit” name = “submit” />
+  </form>
+```
+
+![image](https://github.com/user-attachments/assets/b681089d-cd4f-4462-9270-8e675ff2f24e)
+
+#### Вывод
+Мы изучили тег select для создания выпадающего списка для выбора опции из выпадающего списка и выяснили как делить список на категории с помощью optgroup
+
+## Упражнение 6.6
+
+```
+<form>
+<input type = "file" name = "files" multiple>
+</form>
+```
+
+![image](https://github.com/user-attachments/assets/d2005ba8-19df-4158-b7e9-7865b13eb9f8)
+
+#### Вывод
+Мы type file для input для загрузки файла
