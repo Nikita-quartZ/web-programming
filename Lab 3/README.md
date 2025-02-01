@@ -53,7 +53,8 @@ gulp.task("two", function (callback) {
 gulp.task("default", gulp.series("one", "two"));
 ```
 
-//
+![image](https://github.com/user-attachments/assets/e8c7eee0-9a48-4b34-bf9b-551872220857)
+
 
 Далее представлен исходный код, который запускает те же две задачи
 паралелльно с помощью функции gulp.parallel. Далее изображен результат выполнения команды gulp.
@@ -71,7 +72,8 @@ callback();
 gulp.task("default", gulp.parallel("one", "two"));
 ```
 
-//
+![image](https://github.com/user-attachments/assets/08de1f39-2e7a-482f-bc67-41148cf4ae29)
+
 
 Далее представлен исходный код, который создает задачу browserSync.
 Данная задача отслеживает изменения в HTML-файлах, и при изменении перезагружает страницу веб-браузера. При выполнении этой команды запустится сервер,
@@ -92,9 +94,10 @@ gulp.task("browserSync", function () {
 gulp.task("default", gulp.series("browserSync"));
 ```
 
-//
+![image](https://github.com/user-attachments/assets/a97e646c-688f-4c9c-8971-dfb8396d61dc)
+
 
 При изменении содержимого index.html браузер автоматически перезагрузится
 с новым содержимым
 
-//
+![image](https://github.com/user-attachments/assets/c1f59192-2155-475c-90f0-adae92a5f323)
