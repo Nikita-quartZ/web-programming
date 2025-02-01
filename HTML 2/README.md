@@ -151,7 +151,7 @@
 
 -	th - тег, который создает строчку в оглавлении таблицы
 -	caption - тег для описания таблицы, а caption-side позицианимрует где именно находится описание
--	
+
 -	## Упражнение 4.4
 
 ```
@@ -200,7 +200,7 @@
 
 -	colspan - атрибут бля выделения количество колонок занимаемой одной клеткой
 -	rowspan - атрибут бля выделения количество строчек занимаемой одной клеткой
--	
+
 -	## Упражнение 4.5
 
 ```
@@ -252,3 +252,69 @@
 -	tbody - тег для хранения одной или нескольких строк таблицы, который представлены в начале таблицы
 -	tfoot - тег для хранения одной или нескольких строк таблицы, который представлены в конце таблицы
 -	colgroup - тег для задания ширины и стиля одной или нескольких полей таблицы
+
+-	## Упражнение 5.1
+
+```
+<img src= "/HTML 1/mountain.jpg" alt="Button" title = “This is a button”/>
+```
+
+![image](https://github.com/user-attachments/assets/ec5d2411-77cf-40e5-87e8-0afe90edc467)
+
+
+-	alt - атрибут для размещение альтернативного текста
+-	title - атрибут для подсказку к изображению
+
+-	## Упражнение 5.2
+
+```
+<img src= "/HTML 1/mountain.jpg" alt="Button" title = "This is a button" style="width:100px; height:130px"/>
+```
+
+![image](https://github.com/user-attachments/assets/b81be537-c845-4f31-8116-374207d93277)
+
+-	width - атрибут ширины
+-	height - атрибут высоты
+  
+-	## Упражнение 5.3
+
+```
+<a href = "/HTML 1/classification.html">
+  <img src= "/HTML 1/mountain.jpg" alt="classification" title = “Classification Page” style="width:100px; height:130px"/>
+</a>
+```
+
+![image](https://github.com/user-attachments/assets/b81be537-c845-4f31-8116-374207d93277)
+
+-	## Упражнение 5.4
+
+```
+<a href = "/HTML 1/classification.html">
+  <img src = "/HTML 1/mountain.jpg" usemap = "#MyMap">
+  <map name = "MyMap">
+    <area shape="circle" alt="yandex" title="" coords="405,195,106" href="http://yandex.ru" />
+    <area shape="poligon" alt="google" title="" coords="305,95,106" href="https://www.google.com/" />
+  </map>
+</a>
+```
+
+![image](https://github.com/user-attachments/assets/ef837a63-00b0-46f5-8f38-a3e43eb00ef5)
+
+- map - тег, служит контейнером для элементов <area>, которые определяют активные области для карт-изображений
+- area - тег, для создания красивой навигации, разметив обычную картинку областями и указав для них ссылки
+- 
+-	## Упражнение 5.5
+
+```
+<video width="320" height="240" controls>
+  <source controls  src="TCR.mp4" type="video/mp4" width="640" height="480">
+  <p>Your browser does not support the video tag.</p>
+</video>
+```
+
+![image](https://github.com/user-attachments/assets/392c7942-f84b-4ffc-92dd-f03261291e9e)
+
+
+- video - тег для воспроизведения и управляет настройками видеоролика на веб-странице
+- source - тег, для вставки звуковой или видеофайл для элементов
+
