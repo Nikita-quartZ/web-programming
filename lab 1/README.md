@@ -453,3 +453,67 @@
 
 ![image](https://github.com/user-attachments/assets/1c63275b-ff8d-4524-9e6a-8bd53ccd4688)
 
+## Упражнение 3.1
+
+```
+<a href = "classification.html">Переход к странице классификации</a> <br>
+
+<a href = "https://ru.wikipedia.org/wiki/%CF%F3%E3%EE%E2%E8%F6%E0">Статья в Википедии</a><br />
+
+<a href = “http://www.yandex.ru” target = "_blank" >Yandex</a> <br>
+
+<a href = “http://www.yandex.ru” target = "_top" >Yandex</a>
+```
+
+![image](https://github.com/user-attachments/assets/7cddb741-56ae-494c-aef1-d19be00c5bab)
+
+```
+<a href = "index.html">Вернуться на главную страницу</a> 
+```
+
+![image](https://github.com/user-attachments/assets/480c530c-0b44-4d5d-941a-b8d783952ec1)
+
+- target  - атрибут тега a, мы видим вариант _blank для создания новой вкладки при переходе или _top по умолчанию перейти в данной вкладке;
+
+## Упражнение 3.2
+
+```
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Links</title>
+  <style>
+    a:visited{color:blue;}
+    a:active{color:Fuchsia;}
+    a:hover {color:yellow;}
+   </style> 
+ </head>
+<body  alink="Fuchsia" vlink="Aqua">
+<p>This is a link:</p>
+  <a href = "http://www.yandex.ru">Yandex</a>
+</body>
+</html>
+
+2.	Сохраните изменения, убедитесь в работоспособности гиперссылки. 
+3.	Для изменения цветовых решений гиперссылки, как правило, используют CSS, но возможно встретить и вариант с HTML. В этом случае цвета ссылок задаются в качестве атрибутов тега <body>. Измените код ex4.html следующим образом (изменения обозначены полужирным шрифтом):
+
+<html>
+ <head>
+  <title>Links</title>
+ </head>
+ <body alink="Fuchsia" vlink="Aqua" >
+ <! - - alink – активная ссылка, vlink – посещенная ссылка - ->
+<p>This is a link:</p>
+  <a href = "http://www.yandex.ru" target = "_blank">Yandex</a>
+</body>
+</html>
+```
+
+![image](https://github.com/user-attachments/assets/028de5dc-b988-41c5-9fb4-c7f1f6da6352)
+
+
+- alink  - атрибут тега body, для указания цвета активной ссылки в документе; 
+- vlink  - атрибут тега body, для указания цвета посещенных ссылки в документе;
+- style  - тэг для указания css стилей, где указаны с помощью псевдо стилей стили для тэга a ;
+
+
