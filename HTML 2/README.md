@@ -302,7 +302,7 @@
 
 - map - тег, служит контейнером для элементов <area>, которые определяют активные области для карт-изображений
 - area - тег, для создания красивой навигации, разметив обычную картинку областями и указав для них ссылки
-- 
+
 -	## Упражнение 5.5
 
 ```
@@ -318,3 +318,62 @@
 - video - тег для воспроизведения и управляет настройками видеоролика на веб-странице
 - source - тег, для вставки звуковой или видеофайл для элементов
 
+-	## Упражнение 6.1
+
+```
+<html>
+<head>
+  <title> Test Form </title>
+</head>
+<body>
+  <p>Основные элементы форм:</p>
+  <form action = "ex7.html" method = "POST" enctype = "multipart/form-data">
+    Простое текстовое поле: <input type = "text" name = "txtField" /><br />
+    Поле длинной максимум 5 символов: <input type = "text" name = "txtField" maxlength = “5” /><br />
+    Многострочное текстовое поле:<br />
+    <textarea name = "txtArea">This is a text area</textarea><br />
+    Поле для ввода пароля:<input type = "password" name = "psw" /><br />
+    Скрытое поле: <input type = "hidden" name = "hdnTxt"></br>
+    <input type = "submit" name = "submit" value = "Отправить!" />
+  </form>
+</body>
+</html>
+```
+
+![image](https://github.com/user-attachments/assets/b6eeb057-a067-46f8-82ab-867575809853)
+
+
+
+- form - тег для обьединения элементов в общую форму и делать быстро и просто запросы на сервер
+- input - тег, для вставки поля ввода у которого есть свои специфические type и name
+- textarea - тег, для вставки многострочного поля ввода
+
+  #### Вывод
+  Формы позволяют быстро и удобно создавать формы для взаимодействия с сервером
+
+-	## Упражнение 6.2
+
+```
+<html>
+<head>
+  <title> Test Form </title>
+</head>
+<body>
+  <p>Основные элементы форм:</p>
+  <form action = "ex7.html" method = "POST" enctype = "multipart/form-data">
+    Простое текстовое поле: <input type = "text" name = "txtField" /><br />
+    Поле длинной максимум 5 символов: <input type = "text" name = "txtField" maxlength = “5” /><br />
+    Многострочное текстовое поле:<br />
+    <textarea name = "txtArea">This is a text area</textarea><br />
+    Поле для ввода пароля:<input type = "password" name = "psw" /><br />
+    Скрытое поле: <input type = "hidden" name = "hdnTxt"></br>
+    <input type = "submit" name = "submit" value = "Отправить!" />
+  </form>
+</body>
+</html>
+```
+
+![image](https://github.com/user-attachments/assets/aaf1878e-fe9d-427a-9089-51e86eeeb95a)
+
+#### Вывод
+Типы input позволяю адаптировать их под разные сценарии как выбор цвтеа, даты, ввода именно числа, url или почты
