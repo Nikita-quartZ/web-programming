@@ -491,3 +491,29 @@
 
 #### Вывод
 Мы type file для input для загрузки файла
+
+## Упражнение 7.1
+
+```
+<html>
+  <head>
+    <link rel = "stylesheet" type = "text/css" href = "block_1.css">
+  </head>
+<body>
+```
+
+#### Вывод
+Мы подключили CSS через тэг link
+
+## Упражнение 7
+
+```
+<html>
+  <head>
+    <link rel = "stylesheet" type = "text/css" href = "block_1.css">
+  </head>
+<body>
+```
+
+#### Вывод
+Мы подключили CSS через тэг link
