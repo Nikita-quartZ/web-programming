@@ -68,20 +68,13 @@ watch(() => items.value.length, () => {
         </span>
       </form>
 
-      <!-- <div v-for="item in items" :key="item.id" class="url">
-        <a
-          :href="item.name"
-        >
-          {{item.name}}
-        </a>
-        {{ item.count }}
-      </div> -->
       <div class="url" v-if="currentItem">
         <a :href="currentItem.name">
           {{ currentItem.name }}
         </a>
-        {{ currentItem.count }}
+        {{ currentItem.count }} ms
       </div>
+      <iframe v-if="currentItem" :src="currentItem.name" frameborder="0"></iframe>
     </div>
   </div>
 </template>
@@ -98,7 +91,7 @@ watch(() => items.value.length, () => {
 .form {
   display: flex;
   flex-direction: column;
-  max-width: 400px;
+  max-width: 500px;
   width: 100%;
   margin-bottom: 20px;
 }
@@ -106,7 +99,7 @@ watch(() => items.value.length, () => {
 .form-block {
   display: flex;
   flex-direction: column;
-  max-width: 400px;
+  max-width: 500px;
   width: 100%;
 }
 
