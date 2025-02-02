@@ -38,7 +38,9 @@
 
 <img width="1502" alt="image" src="https://github.com/user-attachments/assets/a6f18c64-11a0-4a33-934f-64d64dd964af" />
 
-<img width="1499" alt="image" src="https://github.com/user-attachments/assets/382e24be-8a10-4c30-8ab1-7c735f54483d" />
+<img width="1506" alt="image" src="https://github.com/user-attachments/assets/21cc7557-d92b-45de-97c0-d1dcc7cc247a" />
+
+К сожалению сайт для безопасности блокирует вставку самого себя через iframe.
 
 ## Вывод
 В данной лабораторной работе я научился использовать систему контроля версий Git для отслеживания и ведения истории изменения файлов в проектах, познакомился с инструментом для автоматизации, организации и обработке задач сборщиком Gulp, разработал собственное приложение просмотра веб-страниц.
