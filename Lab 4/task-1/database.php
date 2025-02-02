@@ -107,7 +107,7 @@ function create_order(
     return $stmt->insert_id;
 }
 
-$mysqli = new mysqli("localhost", "username", "password", "store");
+$mysqli = new mysqli("mysql", "root", "Mysql(8912)", "store");
 
 if ($mysqli->connect_error) {
     die("Connection failed: " . $mysqli->connect_error);
